@@ -1,0 +1,628 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Min maddag</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Get started with HTML, CSS and JavaScript">
+    <meta name="author" content="Rasmus Cederdorff">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Domine&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e7213a1b2a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <div id="mobilNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="#home" onclick="showPage('home'); closeNav()">Forside</a>
+            <a href="#opskrifter" onclick="showPage('opskrifter'); closeNav(); ">Opskrifter</a>
+            <a href="#home" onclick="showPage('home'); closeNav()">Kokkeskolen</a>
+            <img src="img/logo.svg" alt="logo">
+        </div>
+    </div>
+
+    <header class="mobilnavigation">
+
+        <span class="burgermenu" onclick="openNav()"><i class="fas fa-bars"></i></span>
+
+        <p>Min Maddag<span class="rod">.</span></p>
+
+        <nav class="computernavigation">
+            <ul>
+                <li> <a href="#home" onclick="showPage('home')">Forside</a></li>
+                <li> <a href="#opskrifter" onclick="showPage('opskrifter')">Opskrifter</a></li>
+                <li> <a href="#">Kokkeskolen</a></li>
+            </ul>
+        </nav>
+
+        <img src="img/lille_logo.svg" alt="logo" class="headlogo">
+
+        <a href="" class="knap-log">Log-ind <i class="far fa-user"></i></a>
+
+    </header>
+
+    <!-- pages -->
+
+    <!-- Forside -->
+    <section id="home" class="page">
+
+        <!-- topbar -->
+
+
+        <!--HERO IMAGA -->
+
+        <img src="/img/hermobil.png" alt="billede af madlavning" class="heromobil">
+        <div class="herocom">
+
+            <img src="img/herocom.png" alt="billede af madlavning" class="herocom">
+        </div>
+
+
+
+        <div class="nyeopskrifter">
+
+            <h2 class="overskriftmobil">Nye opskrifter</h2>
+
+
+            <div class="overskrifttablet">
+                <h2>Nye opskrifter<span class="rod">.</span></h2>
+                <p class="undertitel">Imponer din familie med disse
+                    Helt nye opskrifter fra
+                    Min Maddag.</p>
+            </div>
+
+
+            <a href="" class="opskrift">
+                <div class="kort">
+                    <img class="madbillede" src="img/madbillede.png" alt="vikingegryde">
+                    <p class="tid"><i class="far fa-clock"> 30-45 min.</i></p>
+                    <img src="img/svarhedsgrad.png" alt="sværhedsgrad 2" class="svarhedsgrad">
+                    <h3>Vikingegryde</h3>
+                    <p class="beskrivelse">Lækker vikingegryde, fuld af grøntsager og god smag
+                        <br><br>
+                        <span class="comtekst"> En sikker vinder for hele familien.</span>
+                    </p>
+                </div>
+            </a>
+
+            <a href="" class="opskrift">
+                <div class="kort">
+                    <img class="madbillede" src="img/fisk.png" alt="fiskefingre">
+                    <p class="tid"><i class="far fa-clock"> 30-45 min.</i></p>
+                    <img src="img/svarhedsgrad.png" class="svarhedsgrad" alt="sværhedsgrad 2">
+                    <h3>Fiskefingre</h3>
+                    <p class="beskrivelse">Lækre sprøde fiskefingre, som man kender dem<br><br><span class="comtekst"> En sikker vinder for hele familien.</span></p>
+
+                </div>
+            </a>
+
+
+            <a href="#opskrifter" onclick="showPage('opskrifter')" class="opskriftknap"><span class="knaptekst">Se alle opskrifter </span><i class="fas fa-chevron-right"></i></a>
+            <a class="tekstunderknap" href="">Se alle opskrifter</a>
+        </div>
+
+        <div class="orden"></div>
+
+        <div class="ugensmenu">
+            <h2 class="overskriftmobil2">Denne uges - <br> Nemt og LÆKKERT</h2>
+
+
+            <div class="overskrifttablet2">
+                <h2>Denne uges - <br> Nemt og LÆKKERT<span class="rod">.</span></h2>
+                <p class="undertitel"> <br>Hver uge udvælger vi en ny ret som både er<br>nem at gå til i køkkenet, og ikke går<br>på kompromis smagen!</p>
+            </div>
+
+
+            <div class="nemret">
+
+                <iframe class="video" src="https://www.youtube.com/embed/_M9MHFhANw4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <a href="">
+
+                    <h3>Nem og lækker One-pot hvidløgs pasta med rejer</h3>
+                    <img src="img/kokkehuernem.png" alt="sværhedsgrad 1">
+                    <p class="nemtid"><i class="far fa-clock"> 30-45 min.</i></p>
+                    <i class="far fa-heart like"></i>
+                    <p class="nembeskrivelse">Denne uges nemt og lækkert består af en one-pot pasta med
+                        massere og grøntsager, og rejer.</p>
+                    <p class="nembeskrivelse">Giv din familie en lille smag af Italien, med denne lækre
+                        pastaret, som med garanti vil imponere dine forældre!</p>
+                </a>
+            </div>
+        </div>
+
+
+
+        <div class="kokkeskoleforside">
+
+            <h2 class="overskriftmobil overskriftmobil2">Kokkeskolen</h2>
+
+
+            <div class="overskrifttablet">
+                <h2>Kokkeskolen<span class="rod">.</span></h2>
+                <p class="undertitel undertitel2">Vi ved at det kan være hårdt at starte
+                    i køkkenet, derfor har vi lavet vores
+                    Kokkeskole, hvor du kan lære
+                    alt fra råvarer, madlavning og
+                    køkkenudstyr!</p>
+            </div>
+
+            <div class="contentkok">
+                <div class="koklink1">
+                    <a href="">
+                        <img src="/img/kokskole1.png" alt="thumbnail">
+                        <p class="billedetekst">Hvor kommer maden fra?</p>
+                    </a>
+                </div>
+
+                <div class="koklink1 koklink2">
+                    <a href="">
+                        <img src="/img/kokskole2.png" alt="thumbnail">
+                        <p class="billedetekst">Sådan laver du scramble eggs</p>
+                    </a>
+                </div>
+
+                <div class="koklink1 koklink2 koklink3">
+                    <a href="">
+                        <img src="/img/kokskole2.png" alt="thumbnail">
+                        <p class="billedetekst">Sådan laver du scramble eggs</p>
+                    </a>
+                </div>
+            </div>
+
+            <a href="" class="semere opskriftknap"><span class="knaptekst">Se mere</span> <i class="fas fa-chevron-right"></i></a>
+
+            <a href="" class="semeretekst">Se mere</a>
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!-- OPSKRIFT SIDE -->
+
+
+    <section id="opskrifter" class="page">
+
+        <div class="ops-comheader">
+            <div class="billedetekst">
+                <h3>Opskrifter<span class="rod">.</span></h3>
+
+                <p>Gå på opdagelse i alle vores lækre opskrifter,
+                    og vælg retten til din næste maddag
+                    eller tilføj opskrifter til din profil </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="opskriftheader">
+            <h2 class="ops-overskirftmobil">Opskrifter</h2>
+            <p class="ops-beskrivelsemobil">Gå på opdagelse i alle vores lækre opskrifter</p>
+
+            <input type="text" placeholder="SØG">
+
+            <div class="filter">
+
+                <btn class="btn" onclick="filterSelection('all')"><img src="img/opsalle.svg"></btn>
+                <btn class="btn" onclick="filterSelection('kood')"><img src="img/opskod.svg"></btn>
+                <btn class="btn" onclick="filterSelection('kyyling')"><img src="img/opskylling.svg"></btn>
+                <btn class="btn" onclick="filterSelection('fiisk')"><img src="img/opsfisk.svg"></btn>
+                <btn class="btn" onclick="filterSelection('vegeetar')"><img src="img/opsvegetar.svg"></btn>
+
+                <p class="alleops">Alle opskrifter</p>
+                <p class="kod">Kød</p>
+                <p class="kylling">Kylling</p>
+                <p class="fisk">Fisk</p>
+                <p class="vegetar">vegetar</p>
+
+            </div>
+        </div>
+
+        <div class="ops-side">
+
+            <div class="ops-opskrifter">
+                <a class="filterDiv fiisk" href="#opskrift" onclick="showPage('opskrift')">
+                    <div class="ops-opskrift">
+                        <img src="img/fisk.png" alt="fiskefingre">
+                        <img class="ops-svarhedsgrad" src="img/svarhedsgrad.png" alt="sværhedsgrad 2">
+                        <p class="ops-tid"><i class="far fa-clock"> 30-45 min.</i></p>
+                        <h3>Fiskefingre</h3>
+                        <p>Lækre sprøde fiskefingre, som man kender dem</p>
+                    </div>
+                </a>
+
+                <a class="filterDiv kood" href="#opskrift" onclick="showPage('opskrift')">
+                    <div class="ops-opskrift">
+                        <img src="img/madbillede.png" alt="vikingegryde">
+                        <img class="ops-svarhedsgrad" src="img/svarhedsgrad.png" alt="sværhedsgrad 2">
+                        <p class="ops-tid"><i class="far fa-clock"> 30-45 min.</i></p>
+                        <h3>Vikingegryde</h3>
+                        <p>Lækker vikinger gryde, fuld af grøntsager og god smag</p>
+                    </div>
+                </a>
+
+
+                <a class="filterDiv vegeetar" href="#opskrift" onclick="showPage('opskrift')">
+                    <div class="ops-opskrift">
+                        <img src="img/spring.png" alt="forårsruller">
+                        <img class="ops-svarhedsgrad" src="img/svarhedsgrad.png">
+                        <p class="ops-tid"><i class="far fa-clock"> 30-45 min.</i></p>
+                        <h3>Grønne ruller</h3>
+                        <p>Sprøde forårsruller med lækre grøntsager</p>
+                    </div>
+                </a>
+
+                <a class="filterDiv kood" href="#opskrift" onclick="showPage('opskrift')">
+                    <div class="ops-opskrift ops-opskrift2">
+                        <img src="img/onepot.png" alt="one-pot pasta">
+                        <img class="ops-svarhedsgrad" src="img/svarhedsgrad.png">
+                        <p class="ops-tid"><i class="far fa-clock"> 30-45 min.</i></p>
+                        <h3>One-pot pasta</h3>
+                        <p>Nem og lækker one-pot pasta!</p>
+                    </div>
+                </a>
+
+                <a class="filterDiv kyyling" href="#opskrift" onclick="showPage('opskrift')">
+                    <div class="ops-opskrift ops-opskrift2">
+                        <img src="img/kylling.png" alt="kylling">
+                        <img class="ops-svarhedsgrad" src="img/svarhedsgrad.png" alt="sværhedsgrad 2">
+                        <p class="ops-tid"><i class="far fa-clock"> 30-45 min.</i></p>
+                        <h3>Wok med kylling</h3>
+                        <p>Lækker karryopskrift med kylling og nudler</p>
+                    </div>
+                </a>
+
+                <a class="filterDiv kood" href="#opskrift" onclick="showPage('opskrift')">
+                    <div class="ops-opskrift ops-opskrift2">
+                        <img src="img/burger.png" alt="pulled porkburger">
+                        <img class="ops-svarhedsgrad" src="img/svarhedsgrad.png" alt="sværhedsgrad 2">
+                        <p class="ops-tid"><i class="far fa-clock"> 30-45 min.</i></p>
+                        <h3>Pulled pork burger</h3>
+                        <p>Klassisk pulled pork burger, en sikker vinder i familien</p>
+                    </div>
+                </a>
+
+
+
+
+                <a class="filterDiv kyyling" href="#opskrift" onclick="showPage('opskrift')">
+                    <div class="ops-opskrift ops-opskrift2">
+                        <img src="img/kylling.png" alt="wokret med kylling">
+                        <img class="ops-svarhedsgrad" src="img/svarhedsgrad.png" alt="sværhedsgrad 2">
+                        <p class="ops-tid"><i class="far fa-clock"> 30-45 min.</i></p>
+                            <h3>Wok med kylling</h3>
+                        <p>Lækker karryopskrift med kylling og nudler</p>
+                    </div>
+                </a>
+
+                <a class="filterDiv kood" href="#opskrift" onclick="showPage('opskrift')">
+                    <div class="ops-opskrift ops-opskrift2">
+                        <img src="img/madbillede.png" alt="vikingegryde">
+                        <img class="ops-svarhedsgrad" src="img/svarhedsgrad.png" alt="sværhedsgrad 2">
+                        <p class="ops-tid"><i class="far fa-clock"> 30-45 min.</i></p>
+                        <h3>Vikingegryde</h3>
+                        <p>Lækker vikinger gryde, fuld af grøntsager og god smag</p>
+                    </div>
+                </a>
+
+
+                <a class="filterDiv vegeetar" href="#opskrift" onclick="showPage('opskrift')">
+                    <div class="ops-opskrift ops-opskrift2">
+                        <img src="img/spring.png" alt="forårsruller">
+                        <img class="ops-svarhedsgrad" src="img/svarhedsgrad.png" alt="sværhedsgrad 2">
+                        <p class="ops-tid"><i class="far fa-clock"> 30-45 min.</i></p>
+                        <h3>Grønne ruller</h3>
+                        <p>Sprøde forårsruller med lækre grøntsager</p>
+                    </div>
+                </a>
+
+                       <a class="filterDiv kood" href="#opskrift" onclick="showPage('opskrift')">
+                    <div class="ops-opskrift ops-opskrift2">
+                        <img src="img/burger.png" alt="pulled porkburger">
+                        <img class="ops-svarhedsgrad" src="img/svarhedsgrad.png" alt="sværhedsgrad 2">
+                        <p class="ops-tid"><i class="far fa-clock"> 30-45 min.</i></p>
+                        <h3>Pulled pork burger</h3>
+                        <p>Klassisk pulled pork burger, en sikker vinder i familien</p>
+                    </div>
+                </a>
+
+
+
+
+                <a class="filterDiv kyyling" href="#opskrift" onclick="showPage('opskrift')">
+                    <div class="ops-opskrift ops-opskrift2">
+                        <img src="img/kylling.png" alt="wokret med kylling">
+                        <img class="ops-svarhedsgrad" src="img/svarhedsgrad.png" alt="sværhedsgrad 2">
+                        <p class="ops-tid"><i class="far fa-clock"> 30-45 min.</i></p>
+                            <h3>Wok med kylling</h3>
+                        <p>Lækker karryopskrift med kylling og nudler</p>
+                    </div>
+                </a>
+
+                <a class="filterDiv kood" href="#opskrift" onclick="showPage('opskrift')">
+                    <div class="ops-opskrift ops-opskrift2">
+                        <img src="img/madbillede.png" alt="vikingegryde">
+                        <img class="ops-svarhedsgrad" src="img/svarhedsgrad.png" alt="sværhedsgrad 2">
+                        <p class="ops-tid"><i class="far fa-clock"> 30-45 min.</i></p>
+                        <h3>Vikingegryde</h3>
+                        <p>Lækker vikinger gryde, fuld af grøntsager og god smag</p>
+                    </div>
+                </a>
+
+
+                <a class="filterDiv vegeetar" href="#opskrift" onclick="showPage('opskrift')">
+                    <div class="ops-opskrift ops-opskrift2">
+                        <img src="img/spring.png" alt="forårsruller">
+                        <img class="ops-svarhedsgrad" src="img/svarhedsgrad.png" alt="sværhedsgrad 2">
+                        <p class="ops-tid"><i class="far fa-clock"> 30-45 min.</i></p>
+                        <h3>Grønne ruller</h3>
+                        <p>Sprøde forårsruller med lækre grøntsager</p>
+                    </div>
+                </a>
+            </div>
+
+            <br><br>
+
+
+        </div>
+
+
+
+
+    </section>
+
+    <section id="opskrift" class="page">
+       <br>
+        <div class="fremgang">
+            <div class="ops-top">
+                <iframe class="opskriftvideo" src="https://www.youtube.com/embed/_M9MHFhANw4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h3>Det skal du bruge:</h3>
+                <p><img src="img/shopping.svg" alt="indkøbskurv ikon"> 50g Chorizo pølse, Løg, Hvidløg</p>
+                <p><img src="img/brat.svg" alt="skærebræts ikon"> Skærebræt, kniv</p>
+                <br>
+                <hr>
+            </div>
+
+            <ul class="steps">
+
+                <li class="tab--active step1" onclick="step1()" id="step1"><input type="checkbox"><a href="#step1">Skræl løg og hvidløg</a></li>
+                <li id="step2" onclick="step2()" class="tab--unactive step2"><input type="checkbox"><a href="#step2" >Skær løg og hvidløg i tern</a></li>
+                <li id="step3" onclick="step3next()" class="tab--unactive step3"><input type="checkbox"><a href="#step3">Skær chorizo i tern</a></li>
+               
+            </ul>
+            
+            <div class="ops-info">
+             
+              <a id="knap1" onclick="showPage('opskrift2')" href="#opskrift2" class="knap--unactive">Næste trin</a>
+               
+                <p>Trin<br> 1/5</p>
+            </div>
+
+        </div>
+        <br>
+
+
+    </section>
+    
+        <section id="opskrift2" class="page">
+       <br>
+        <div class="fremgang">
+            <div class="ops-top">
+                <iframe class="opskriftvideo" src="https://www.youtube.com/embed/_M9MHFhANw4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h3>Det skal du bruge:</h3>
+                <p><img src="img/shopping.svg" alt="indkøbskurv ikon"> 1/2 Squash</p>
+                <p><img src="img/brat.svg" alt="skærebræts ikon"> Skærebræt, kniv</p>
+                <br>
+                <hr>
+            </div>
+
+            <ul class="steps">
+
+                <li class="tab--active step1" onclick="step4()" id="step4"><input type="checkbox"><a href="#step4">Skyld squash</a></li>
+                
+                
+                <li id="step5" onclick="step5()" class="tab--unactive step2"><input type="checkbox"><a href="#step5">Riv squashen på den grove side af rivejernet</a></li>
+                
+                
+        
+               
+            </ul>
+            
+            <div class="ops-info">
+             
+              <a id="knap2" onclick="showPage('opskrift3')" href="#opskrift3"  class="knap--unactive">Næste trin</a>
+               
+                <p>Trin<br> 2/5</p>
+            </div>
+
+        </div>
+        <br>
+
+
+    </section>
+    
+            <section id="opskrift3" class="page">
+       <br>
+        <div class="fremgang">
+            <div class="ops-top">
+                <iframe class="opskriftvideo" src="https://www.youtube.com/embed/_M9MHFhANw4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h3>Det skal du bruge:</h3>
+                <p><img src="img/shopping.svg" alt="indkøbskurv ikon"> Alle ingredienser</p>
+                <p><img src="img/brat.svg" alt="skærebræts ikon"> Gryde, målebærer</p>
+                <br>
+                <hr>
+            </div>
+
+            <ul class="steps">
+
+                <li class="tab--active step1" onclick="step7()" id="step7"><input type="checkbox"><a href="#step7">Opmål 1 liter vand</a></li>
+                
+                
+                <li id="step8" onclick="step8()" class="tab--unactive step2"><input type="checkbox"><a href="#step8">Kom alle ingredienserne i gryden</a></li>
+                
+                
+                <li id="step9" onclick="step9()" class="tab--unactive step3"><input type="checkbox"><a href="#step9ª">Hæld vandet i gryden</a></li>
+                
+                 <li id="step10" onclick="step10next()" class="tab--unactive step3"><input type="checkbox"><a href="#step9ª">Tænd for komfuret, og skru varmen op til middel</a></li>
+               
+            </ul>
+            
+            <div class="ops-info">
+             
+              <a id="knap3"onclick="showPage('opskrift4')" href="#opskrift4" class="knap--unactive">Næste trin</a>
+               
+                <p>Trin<br> 3/5</p>
+            </div>
+
+        </div>
+        <br>
+
+
+    </section>
+    
+    <section id="opskrift4" class="page">
+       <br>
+        <div class="fremgang">
+            <div class="ops-top">
+                <iframe class="opskriftvideo" src="https://www.youtube.com/embed/_M9MHFhANw4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h3>Det skal du bruge:</h3>
+                <p><img src="img/shopping.svg" alt="indkøbskurv ikon"> Tålmodighed</p>
+                <p><img src="img/brat.svg" alt="skærebræts ikon"> Grydeske</p>
+                <br>
+                <hr>
+            </div>
+
+            <ul class="steps">
+
+                <li class="tab--active step1" onclick="step11()" id="step11"><input type="checkbox"><a href="#step10">Hold øje med gryden</a></li>
+                
+                
+                <li id="step12" onclick="step12next()" class="tab--unactive step2"><input type="checkbox"><a href="#step11">Rør jævnligt i gryden</a></li>
+                
+                
+            
+               
+            </ul>
+            
+            <div class="ops-info">
+             
+              <a id="knap4" href="#opskrift5" onclick="showPage('opskrift5')" class="knap--unactive">Næste trin</a>
+               
+                <p>Trin<br> 4/5</p>
+            </div>
+
+        </div>
+        <br>
+
+
+    </section>
+    
+     <section id="opskrift5" class="page">
+       <br>
+        <div class="fremgang">
+            <div class="ops-top">
+                <iframe class="opskriftvideo" src="https://www.youtube.com/embed/_M9MHFhANw4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h3>Det skal du bruge:</h3>
+                <p><img src="img/brat.svg" alt="skærebræts ikon"> Din familie</p>
+                <br>
+                <hr>
+            </div>
+
+            <ul class="steps">
+
+                <li class="tab--active step1" onclick="step13()" id="step13"><input type="checkbox"><a href="#step13">Sluk for komfuret</a></li>
+                
+                
+                <li id="step14" onclick="step14next()" class="tab--unactive step2"><input type="checkbox"><a href="#step14">Server retten for din familie</a></li>
+                
+                
+
+               
+            </ul>
+            
+            <div class="ops-info">
+             
+              <a id="knap5" href="#done" onclick="showPage('done')"  class="knap--unactive">Færdig</a>
+               
+                <p>Trin<br> 5/5</p>
+            </div>
+
+        </div>
+        <br>
+
+
+    </section>
+    
+    
+      <section id="done" class="page">
+       <br>
+        <div class="fremgang done">
+        
+        <img src="img/donepic.png" alt="færdig billede" class="donepic">
+        <h2>Din ret er færdig<span class="rod">!</span></h2>
+        <p>- Godt gået, nu er det tid til 
+   at slukke skærmen og
+nyde tiden med din familie</p>
+       
+       <h3>velbekom<span class="rod">!</span></h3>
+        
+
+        </div>
+        <br>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <p>Enjoy Together<span class="rod">.</span></p>
+
+        <ul>
+            <li>Danish Crown Foods</li>
+            <li><a href="tel:89105000">Tel: +45 89 10 50 00</a></li>
+            <li>
+                <adress>Tulipvej 1, 8940 Randers SV</adress>
+            </li>
+        </ul>
+        <a href=""><img src="img/instagramikon.png" alt="link til instagram"></a>
+        <a href=""><img src="img/facebookikon.png" alt="link til facebook"></a>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <!-- main js file -->
+    <script src="js/main.js"></script>
+</body></html>
